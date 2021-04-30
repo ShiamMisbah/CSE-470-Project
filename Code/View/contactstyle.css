@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(248, 248, 248);
+    overflow: visible;
+    margin: 0px;
+}
+/* NAVIGAATION BAR START */
+.navigation{
+    position: relative;
+    width: 100%;
+    height: 105px;
+    background-color: royalblue;
+    box-shadow: 0px 5px 10px gray;
+    overflow: auto;
+}
+
+.logo{
+    top: 15px;
+    left: 30px;
+    position: absolute;
+    height: 70px;
+
+}
+
+.navigation p{
+    position: absolute;
+    left: 150px;
+    top: 21px;
+    font-size: 50px;
+    margin: 0px;
+
+}
+.navigation ul{
+    position: absolute;
+    right: 10px;
+    top: 21px;
+
+
+}
+
+.navigation ul li{
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+.navigation ul li a{
+
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(221, 220, 231);
+}
+
+.navigation li :hover{
+   transition: font-size 1s;
+   cursor: pointer;
+   font-size: 40px;  
+}
+
+input[type=text],[type=number], select, textarea {
+
+  
+    display: block;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+  
+   font-size: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* .content{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    height: 500px;
+    width: 700px;
+    background-color: rgba(65, 105, 225, 0.377);
+    box-shadow: 0px 0px 20px;
+    border-radius: 15px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content li{
+    position: relative;
+    top:  15%;
+    left: 10%;
+    font-size: 35px;
+    list-style-type: none;;
+} */
+

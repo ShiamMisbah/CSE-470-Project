@@ -1,0 +1,88 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(248, 248, 248);
+    opacity: 100%;
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+.navbar{
+    box-shadow: 0px 5px 10px gray;
+    float: left;
+    background-color: royalblue;
+    width: 100%;
+    height: 105px;
+    align-content: center;
+
+
+}
+
+ul{
+    float: right;
+
+}
+ul li{
+    display: inline-block;
+    font-size:30px ;
+    margin: 5px;
+    padding-right: 30px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(221, 220, 231);
+    
+    
+}
+ul li:hover{
+    transition: font-size 1s;
+    cursor: pointer;
+    font-size: 40px;
+}
+.pad{
+    padding-left: 30px;
+    padding-top: 6px;
+}
+.top{
+    padding-top: 15px;
+    right: 0px;
+}
+
+/* FORM */
+
+input[type=text],[type=number], select, textarea {
+
+  
+  display: block;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+
+ font-size: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

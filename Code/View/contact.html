@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Contact
+    </title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navigation">
+        <img class="logo" src="../picture/logo.svg" alt="" >
+        <p>Bicycle</p>
+
+        <ul>
+            <li><a href="../View/Home.html">Home</a></li>
+            <li><a href="../Controller/bookform.html">Booking</a></li>
+            <li><a href="../View/Navigationbar.html">Events</a></li>
+            <li><a href="../View/About.html">About</a></li>
+        </ul>
+        </ul>
+    </div>
+
+    <h3 style="font-size: 32px; padding: 20px;padding-bottom: 0px; display: inline-block;margin: 0px;">Event Booking</h3>
+        <h4 style="padding: 20px;margin: 0px 0px;">Working Hours: Monday to Saturday 9AM - 5PM</h4>
+        
+        <div class="container">
+          <form action="../Model/connectevent.php" method="POST">
+            <label for="email">Email address</label>
+            <input type="text" id="email" name="email" placeholder="Your Email">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" name="phone" placeholder="01....">
+        
+            <label for="event">Event</label>
+            <select id="event" name="event">
+              <option value="rally 1">50km Rally 1</option>
+              <option value="rally 2">50km Rally 2</option>
+              <option value="mela">Biker's Mela</option>
+              <option value="tournament">Dhaka Tournament</option>
+
+            </select>
+        
+            <label for="query">Further Queries</label>
+            <textarea id="query" name="query" placeholder="Enter query" style="height:200px"></textarea>
+ 
+            <input type="submit" value="Confirm Booking">
+          </form>
+        </div>
+
+    <!-- <div class="content">
+        <li>Facebook: bicycle.bhobisshot</li>
+        <li>Instagram: bicycle.bhobisshot</li>
+        <li>Mail: bicycle.bhobisshot@gmail.com</li>
+        <li>Address: Kumrapara 10, Notir goli, Bangladesh</li>
+
+    </div> -->
+
+
+
+
+
+
+</body> 
